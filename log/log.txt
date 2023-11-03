@@ -1,0 +1,7 @@
+[Debug][2023-11-3 20:33:10][PID:12474] socket successful
+[Debug][2023-11-3 20:33:10][PID:12474] bind successful
+[Debug][2023-11-3 20:33:10][PID:12474] listen successful
+[Debug][2023-11-3 20:33:18][PID:12474] listen successful,sock fd:4
+[Debug][2023-11-3 20:35:4][PID:12474] client quit,me too
+[Debug][2023-11-3 20:35:8][PID:12474] listen successful,sock fd:5
+[Debug][2023-11-3 20:35:27][PID:12474] client quit,me too
