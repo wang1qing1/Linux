@@ -1,0 +1,13 @@
+[Fatal][2023-11-4 21:34:41][PID:27104] Connect err ,error code 101,Network is unreachable
+[Fatal][2023-11-4 21:37:15][PID:27162] Connect err ,error code 101,Network is unreachable
+[Fatal][2023-11-4 21:40:7][PID:27194] Connect err ,error code 111,Connection refused
+[Fatal][2023-11-4 21:45:32][PID:27235] Connect err ,error code 111,Connection refused
+[Fatal][2023-11-4 21:45:40][PID:27236] Connect err ,error code 111,Connection refused
+[Fatal][2023-11-4 21:45:42][PID:27237] Connect err ,error code 111,Connection refused
+[Fatal][2023-11-4 21:45:43][PID:27238] Connect err ,error code 111,Connection refused
+[Fatal][2023-11-4 21:45:43][PID:27239] Connect err ,error code 111,Connection refused
+[Fatal][2023-11-4 21:45:44][PID:27240] Connect err ,error code 111,Connection refused
+[Fatal][2023-11-4 21:45:45][PID:27241] Connect err ,error code 111,Connection refused
+[Fatal][2023-11-4 21:45:46][PID:27242] Connect err ,error code 111,Connection refused
+[Fatal][2023-11-4 21:47:34][PID:27262] Connect err ,error code 111,Connection refused
+[Fatal][2023-11-4 21:50:46][PID:27293] Connect err ,error code 111,Connection refused
