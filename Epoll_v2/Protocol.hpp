@@ -27,33 +27,24 @@ std::string Addhead(std::string str)
     return len + SEP + str + SEP;
 }
 
-int ReadFormat(int fd, std::string &inputstr, std::string *target)
+int ReadFormat(std::string &inputstr, std::string *target)
 {
     // 从流中读取—————— "7"+\n\r+"123+321"+\n\r
-    char buff[1024];
-    int n = recv(fd, buff, sizeof(buff), 0);
-    if (n < 0)
-    {
-        return n;
-    }
 
-    string readstr = buff;
-    // cout << readstr << endl;
     // 解析判断读取的字符串是否完整
     // 尝试读取报头
-    int pos = readstr.find(SEP, 0);
+    int pos = inputstr.find(SEP, 0);
     if (pos == std::string::npos) // 没有找到分割"\n\r"
         return 0;
     // 找到报头分隔符，提取报头——————有效载荷的长度
-    string headstr = readstr.substr(0, pos);
+    string headstr = inputstr.substr(0, pos);
     int len = atoi(headstr.c_str());
     // 计算出整个报文应该有的长度——————,报头+分割符+有效载荷
     int formatlen = headstr.length() + len + 2 * SEPLEN;
-    if (readstr.length() < formatlen) // 读取的报文长度小于报文应该有的长度，没有读取完整
+    if (inputstr.length() < formatlen) // 读取的报文长度小于报文应该有的长度，没有读取完整
         return 0;
     // 读取到一个完整的报文了
-    *target = readstr.substr(0, formatlen);
-    // 删除读取过的部分
+    *target = inputstr.substr(0, formatlen);
     inputstr.erase(0, formatlen);
     // cout << *target << endl;
     return len;
