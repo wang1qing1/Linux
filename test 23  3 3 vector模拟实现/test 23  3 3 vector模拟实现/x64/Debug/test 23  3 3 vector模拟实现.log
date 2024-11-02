@@ -1,0 +1,31 @@
+﻿  test.cpp
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(245,4): warning C4018: “<”: 有符号/无符号不匹配
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(244): message : 在编译 类 模板 成员函数“T &ikun::Vector<T>::operator [](size_t)”时
+          with
+          [
+              T=ikun::Vector<int>
+          ]
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\test.cpp(42): message : 查看对正在编译的函数 模板 实例化“T &ikun::Vector<T>::operator [](size_t)”的引用
+          with
+          [
+              T=ikun::Vector<int>
+          ]
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\test.cpp(38): message : 查看对正在编译的 类 模板 实例化“ikun::Vector<ikun::Vector<int>>”的引用
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(251,4): warning C4018: “<”: 有符号/无符号不匹配
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(250): message : 在编译 类 模板 成员函数“const T &ikun::Vector<T>::operator [](size_t) const”时
+          with
+          [
+              T=ikun::Vector<int>
+          ]
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(146): message : 查看对正在编译的函数 模板 实例化“const T &ikun::Vector<T>::operator [](size_t) const”的引用
+          with
+          [
+              T=ikun::Vector<int>
+          ]
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(38,27): warning C4244: “return”: 从“__int64”转换到“const int”，可能丢失数据
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(37): message : 在编译 类 模板 成员函数“const int ikun::Vector<ikun::Vector<int>>::capacity(void) const”时
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(135): message : 查看对正在编译的函数 模板 实例化“const int ikun::Vector<ikun::Vector<int>>::capacity(void) const”的引用
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(30,27): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(29): message : 在编译 类 模板 成员函数“int ikun::Vector<ikun::Vector<int>>::capacity(void)”时
+D:\C-C++My_Code\test 23  3 3 vector模拟实现\test 23  3 3 vector模拟实现\Vector.h(187): message : 查看对正在编译的函数 模板 实例化“int ikun::Vector<ikun::Vector<int>>::capacity(void)”的引用
+  test 23  3 3 vector模拟实现.vcxproj -> D:\C-C++My_Code\test 23  3 3 vector模拟实现\x64\Debug\test 23  3 3 vector模拟实现.exe
